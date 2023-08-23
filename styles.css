@@ -1,20 +1,39 @@
 /*  your css code here. If applicable */
-.hero{
-	display:flex;
-	justify-content:center;
-	align-items:center;
+body, h1, p {
+    margin: 0;
+    padding: 0;
 }
-img{
-	width:500px;
-	height:250px;
-	object-fit: cover
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
 }
 button{
-	margin:auto;
-	padding:5px;
+	padding:10px;
 	background-color:red;
 	color:white;
 	border-radius:5px;
 	border:none;
 	cursor:pointer;
+	font-size:14px
+}
+button:hover {
+    background-color: #e60023;
+}
+.hero-content {
+    text-align: center;
+    z-index: 1;
+	padding:10px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 30px;
 }
